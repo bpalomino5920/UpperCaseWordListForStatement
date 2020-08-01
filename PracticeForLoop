@@ -1,0 +1,8 @@
+your_words = [item for item in input('Enter some words >').split()]
+
+print(your_words)
+    
+for word in your_words:
+    word2 = word
+    word_up = word2.upper()
+    print(word,word_up)
